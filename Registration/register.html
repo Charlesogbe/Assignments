@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/register.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="description">
+    <header>
+      <img class="logo" src="" alt="Codex">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="index.html"><button class="btn-2">Login</button></a>
+      <a class="cta" href="register.html"><button class="btn-2">Register</button></a>
+    </header>
+    <div class="form-box">
+      <h1 id="title" class="text-center">Register</h1>
+      <div class="social-icons">
+        <img src="styles/icons8-facebook-48 (1).png">
+        <img src="styles/icons8-instagram-48.png">
+        <img src="styles/icons8-twitter-circled-48.png">
+      </div>
+      <form action="success.html" class="input-group">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" class="input-field" placeholder="Enter your name:" required>
+        <label for="name" id="lastname-label">Last name</label>
+        <input type="text" class="input-field" placeholder="Enter your Last name:" required>
+        <label for="number" id="number-label">Phone number</label>
+        <input type="tel" class="input-field" placeholder="Phone number:" required>
+        <label for="">Email</label>
+        <input type="email" class="input-field" placeholder="Enter your Email:" required>
+        <label>D.O.B</label>
+        <input type="date" class="input-field" placeholder="Date of Birth:" required>
+        <p>Gender</p>
+        <select name="gender" id="dropdown" class="input-field" required>
+        <option disable selected option>Select an option</option>
+        <option value="gender">Male</option>
+        <option value="gender">Female</option>
+        <option value="Other">Unspecified</option>
+        </select>
+        <label for="color">Favorite color</label>
+        <input type="color" class="input-field" placeholder="Favorite color:" required>
+        <label for="password">Password</label>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <label for="password"> Confirm Password</label>
+        <input type="password" class="input-field" placeholder="Confirm your password:" required>
+        <input type="checkbox" class="checkbox"><span>Remember Password</span>
+        <div>
+          <button type="submit" class="submit-btn" id="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
